@@ -8,7 +8,7 @@ const app = createApp(App)
 
 app.use(router)
 app.use(axios, {
-    baseUrl: 'http://localhost:8080/',
+    baseUrl: 'http://localhost:8082/',
     //timeout: 1000,
     //headers: {'X-Custom-Header': 'foobar'}
 })
